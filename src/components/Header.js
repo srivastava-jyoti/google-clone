@@ -33,7 +33,7 @@ const Header = () => {
             <TopSection>
                 <p>Gmail</p>
                 <p>Images</p>
-                <AppsIcon className="left-margin"/>
+                <AppsIcon/>
                 <AvatarIcon className="left-margin"/>
             </TopSection>
         </HeaderContainer>

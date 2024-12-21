@@ -8,7 +8,7 @@ const SearchInput = styled.div`
     align-items: center;
     background-color: #303134; /* Dark background */
     border: 1px solid #5f6368; /* Subtle border */
-    height: 44px;
+    height: 46px;
     padding: 0 15px;
     width: 580px;
     margin: 0 auto;
@@ -58,6 +58,7 @@ const SearchBuuton = styled.div`
         border-radius: 4px;
         font-size: 14px;
         color: white;
+        text-transform: none;
 
     &:hover {
         box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
