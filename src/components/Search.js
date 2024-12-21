@@ -6,19 +6,19 @@ import { Button } from "@mui/material";
 const SearchInput = styled.div`
     display: flex;
     align-items: center;
-    background-color: #303134; /* Dark background */
-    border: 1px solid #5f6368; /* Subtle border */
+    background-color: #4d5156;
     height: 46px;
     padding: 0 15px;
     width: 580px;
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 24px;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.75); /* Darker shadow for depth */
     transition: box-shadow 0.3s ease;
 
     &:hover {
-        box-shadow: 0 1px 6px rgba(255, 255, 255, 0.3); /* Hover shadow effect */
+        box-shadow: 0 1px 6px rgba(255, 255, 255, 0.3);
+        background: #5f6368;
+        box-shadow: none;
     }
 
     input {
@@ -27,13 +27,13 @@ const SearchInput = styled.div`
         padding: 10px;
         border: 0;
         outline: 0;
-        color: #e8eaed; /* Light text */
+        color: #e8eaed;
         font-size: 16px;
-        caret-color: #4285f4; /* Blue cursor */
+        caret-color: #4285f4;
     }
 
     .searchicon {
-        color: #9aa0a6; /* Light grey search icon */
+        color: #9aa0a6;
     }
 
     .mic-icon {
