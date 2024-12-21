@@ -7,7 +7,7 @@ const SearchInput = styled.div`
     display: flex;
     align-items: center;
     background-color: #4d5156;
-    height: 46px;
+    height: 48px;
     padding: 0 15px;
     width: 580px;
     margin: 0 auto;
