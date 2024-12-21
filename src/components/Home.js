@@ -1,12 +1,20 @@
 import React from "react";
 import Header from "./Header";
+import styled from "styled-components";
+import Main from "./Main";
 
-
+const HomeContainer = styled.div`
+    background: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+`
 const Home = () => {
     return(
-        <div className="home">
+        <HomeContainer>
             <Header/>
-        </div>
+            <Main/>
+        </HomeContainer>
     )
 }
 
