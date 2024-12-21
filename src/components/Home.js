@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import styled from "styled-components";
 import Main from "./Main";
+import Footer from "./Footer";
 
 const HomeContainer = styled.div`
     background: black;
@@ -14,6 +15,7 @@ const Home = () => {
         <HomeContainer>
             <Header/>
             <Main/>
+            <Footer/>
         </HomeContainer>
     )
 }
